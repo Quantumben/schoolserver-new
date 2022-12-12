@@ -4,7 +4,7 @@
         <img class="h-10 w-10 rounded-full" :src="person.image" alt="" />
         <div class="ml-3">
           <p class="text-sm font-medium text-gray-900">{{ person.name }}</p>
-          <p class="text-sm text-gray-500">{{ person.email }}</p>
+          <p class="text-sm text-gray-500 bg-red-700">{{ person.email }}</p>
         </div>
       </li>
     </ul>
